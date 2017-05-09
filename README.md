@@ -50,15 +50,15 @@ Some mind-blowing things that I learnt in this process :
  
  To test the quality of the resulting clusters :
  
-    1. Homogeniety: degree to which clusters contain element of the same class
+1. Homogeniety: degree to which clusters contain element of the same class
     
-    2. Completeness : degree to which all elements belonging to certain category are found in a cluster
+2. Completeness : degree to which all elements belonging to certain category are found in a cluster
     
-    3. V-measure : mean of homogeniety and completeness
+3. V-measure : mean of homogeniety and completeness
     
-    4. Silhouette score : how similar an object is to its own cluster . 
+4. Silhouette score : how similar an object is to its own cluster . 
     
-    The result is not fantastic. The value for silhouette score is very less which means that the sample is on or very close to the decisin boundary between 2 neighboring clusters. Also, completeness scores tells us that there were definitely points that were not put in the right cluster.
+The result is not fantastic. The value for silhouette score is very less which means that the sample is on or very close to the decision boundary between 2 neighboring clusters. Also, completeness scores tells us that there were definitely points that were not put in the right cluster.
     
 ## Improvements to the algorithm:
     
