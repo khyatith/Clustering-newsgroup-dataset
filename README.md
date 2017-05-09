@@ -6,7 +6,7 @@ Prompt statement : Crawl, scrape, or download a news corpus or dataset (e.g. WSJ
     
 2. I have downloaded the data from a python library called scikit-learn.
     
-3. I will be considering this is a clustering problem. I have downloaded all the articles and using a 'bad-of-words' approach, I have tried to cluster the most important and frequent words in the articles together, using K-means clustering algorithm
+3. I will be considering this as a clustering problem. I have downloaded all the articles and using a 'bag-of-words' approach, I have tried to cluster the most important and frequent words in the articles together, using K-means clustering algorithm
   
  ## Exploring the data:
     
