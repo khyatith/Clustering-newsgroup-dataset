@@ -38,7 +38,7 @@ I learnt some steps about how to cluster the data using scikit-learn and K-means
 
 Some mind-blowing things that I learnt in this process :
 
-1. Vectorization/Bag-of-words : Raw-data, basically text, cannot be fed directly to the algorithms as most of the algorithms expect numerical feature vectors which includes techniques like tokenizing strings and giving each string a unique token. In a nutshell, vectorization is a technique of creating a respresenting text documents by a matrix, with 1 row per document and 1 column per token occurring in the corpus.
+1. Tf-idf : Raw-data, basically text, cannot be fed directly to the algorithms as most of the algorithms expect numerical feature vectors which includes techniques like tokenizing strings and giving each string a unique token. In a nutshell, vectorization is a technique of creating a respresenting text documents by a matrix, with 1 row per document and 1 column per token occurring in the corpus.
     I have used TfIdf vectorizer in my code since it's default. It uses an in-memory vocabulary to map the most frequent words to feature indices and hence computer a sparse matrix which denotes the word occurrence frequency.
    TfIdf will strip all English "stop words" from the document. It will also filter out terms that occur in more than half of the documents (max_df=0.5) and terms that occur in only 1 document (min_df=2).
    It keeps 10,000 words with the highest counts. 
