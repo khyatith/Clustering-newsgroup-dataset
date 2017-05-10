@@ -42,8 +42,10 @@ Some mind-blowing things that I learnt in this process :
     I have used TfIdf vectorizer in my code since it's default. It uses an in-memory vocabulary to map the most frequent words to feature indices and hence computer a sparse matrix which denotes the word occurrence frequency.
    TfIdf will strip all English "stop words" from the document. It will also filter out terms that occur in more than half of the documents (max_df=0.5) and terms that occur in only 1 document (min_df=2).
    It keeps 10,000 words with the highest counts. 
-   
- 2. Clustering: Very honestly, I had no idea that there's a library that would do K-mean clustering for us. That was a pleasant surprise. 
+ 
+ 2. How Tf-Idf works is pretty cool. It is basically a product of how frequently a word occur in a document (Tf) and how infrequently a word occur across all documents (Idf). Words with high tfidf score occur frequently and provide the most information about the document.
+    
+ 2. Clustering: Very honestly, I had no idea that there's a library that would do K-mean clustering for us. That was a pleasant surprise. However, ever run of K-means gives different results because it chooses the first 20 centroids randomly. 
  
  
  ## Results:
@@ -62,9 +64,11 @@ The result is not fantastic. The value for silhouette score is very less which m
     
 ## Improvements to the algorithm:
     
-For improving the clustering approach , I would like to try some different algorithms mentioned in the algorithm map http://scikit-learn.org/stable/tutorial/machine_learning_map/.
-    
-I have been reading about some of those clustering algorithms. I have not been able to try those because of the time constraints. Also, maybe using a different vectorizing technique can be helpful. 
+1. For improving the clustering approach , I would like to try some different algorithms mentioned in the algorithm map http://scikit-learn.org/stable/tutorial/machine_learning_map/. I have been reading about some of those clustering algorithms. I have not been able to try those because of the time constraints. Also, maybe using a different vectorizing technique can be helpful. 
+
+2. I would also like to create a visualization of my clusters.
+
+3. For getting the data, I would like to create a crawler to scrape the data from a news website. 
  
  
  
