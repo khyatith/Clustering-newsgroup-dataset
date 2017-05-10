@@ -69,6 +69,8 @@ The result is not fantastic. The value for silhouette score is very less which m
 2. I would also like to create a visualization of my clusters.
 
 3. For getting the data, I would like to create a crawler to scrape the data from a news website. 
+
+4. I would also like to do some sentiment analysis of the articles. The concept looks really interesting.  
  
  
  
