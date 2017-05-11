@@ -70,8 +70,32 @@ The result is not fantastic. The value for silhouette score is very less which m
 
 3. For getting the data, I would like to create a crawler to scrape the data from a news website. 
 
-4. I would also like to do some sentiment analysis of the articles. The concept looks really interesting.  
- 
+4. I would also like to do some sentiment analysis of the articles. The concept looks really interesting.
+
+## Installations Instruction
+
+I have developed this project on Python 2.7.
+
+1. Clone this repo
+
+2. cd into the repo folder and run 
+```
+sudo pip install -r requirements.txt
+
+```
+
+3. Once the requirements have finished installing, you can run 
+```
+python Volley.py
+
+```
+
+4. For troubleshooting, if you get an error like : SystemError: Cannot compile 'Python.h'. Perhaps you need to install python-dev. Run
+
+```
+sudo apt-get install python-dev
+
+```
  
  
 
